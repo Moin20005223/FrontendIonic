@@ -1,0 +1,41 @@
+.GalleryContainer
+{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top:50px;
+    height: auto;
+}
+.GalleryContainer .GalleryPics
+{
+    display: flex;
+    width:80%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:-40px;
+    height:auto;
+}
+.GalleryContainer .GalleryPics .GalleryPic
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:300px;
+    height:700px;
+    text-align: center;
+}
+.GalleryContainer h3
+{
+    text-align:left;
+    width:100%;
+    margin-left:250px;
+    font-weight:700;
+    font-size:25px;
+}
+.GalleryContainer h4
+{
+    font-weight:700;
+}
