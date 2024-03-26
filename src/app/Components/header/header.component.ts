@@ -49,6 +49,10 @@ export class HeaderComponent  implements OnInit {
       this.buttonName="Logout";
     }
   }
+  navigate(link)
+  {
+    this.router.navigateByUrl(link);
+  }
   login()
   {
      const accountPanel=document.querySelector(".AccountPanel");
