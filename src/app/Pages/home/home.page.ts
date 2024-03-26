@@ -18,4 +18,12 @@ export class HomePage {
   img4="../../../assets/4.webp";
   img5="../../../assets/5.webp";
   img6="../../../assets/6.png";
+
+  price1="$2.22";
+  price2="$2.25";
+  price3="$3.00";
+  price4="$3.50";
+  price5="$4.00";
+  price6="$2.60";
+  
 }

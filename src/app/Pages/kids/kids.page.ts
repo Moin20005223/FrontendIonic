@@ -13,6 +13,13 @@ export class KidsPage implements OnInit {
   img4="../../../assets/kid4.webp";
   img5="../../../assets/kid5.jpg";
   img6="../../../assets/kid6.jpg";
+
+  price1="$2.21";
+  price2="$2.00";
+  price3="$3.45";
+  price4="$4.50";
+  price5="$5.00";
+  price6="$1.60";
   constructor() { }
 
   ngOnInit() {

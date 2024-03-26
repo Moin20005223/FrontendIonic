@@ -8,11 +8,12 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HeaderComponent } from './Components/header/header.component';
 import { SharedModule } from './shared/shared.module';
+import { CartServiceService } from './Services/cart-service.service';
 
 @NgModule({
   declarations: [AppComponent],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
-  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
+  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy },CartServiceService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

@@ -17,20 +17,20 @@
             </ion-row>
           </ion-col>
           <ion-col size-md="2" size-sm="2"><h6 (click)="login()">Your Account</h6></ion-col>
-          <ion-col size-md="2" size-sm="2"><h6>Your Cart</h6></ion-col>
+          <ion-col size-md="2" size-sm="2"><h6><a href="/cart" class="link">Your Cart</a></h6></ion-col>
           <div class="AccountPanel">
             <div class="login">
-              <button><a href="/login">Login</a></button>
+              <button (click)="loginCheck()">{{buttonName}}</button>
               <h5>Want to join? <a href="/signup"> Sign Up</a></h5>
             </div>
           </div>
         </ion-row>
         <ion-row class="HeaderContainer" style="margin:0px auto">
           <ion-col size="2">
-            <h3>Watter Bottles</h3>
+            <h3><a href="/home" class="link">Watter Bottles</a></h3>
           </ion-col>
           <ion-col size="2">
-            <h3>Accessories</h3>
+            <h3><a href="/accessory" class="link">Accessories</a></h3>
           </ion-col>
           <ion-col size="2">
             <h3><a href="/kids" class="link">Kids</a></h3>

@@ -5,13 +5,13 @@
         <h1>Welcome Back</h1>
         <div class="Section">
           <label>Email:</label>
-          <input type="email"/>
+          <input type="email" [(ngModel)]="email"/>
         </div>
         <div class="Section">
           <label>Password:</label>
-          <input type="password"/>
+          <input type="password" [(ngModel)]="password"/>
         </div>
-        <button>Login Now</button>
+        <button (click)="login()">Login Now</button>
     </div>
   </div>
 </ion-content>

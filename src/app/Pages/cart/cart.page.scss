@@ -1,0 +1,30 @@
+.CartContainer
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: 200px;
+}
+.CartContainer .CartData
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:70%;
+    background-color: greenyellow;
+    height:600px;
+    margin-top: 50px;
+}
+.CartColumn
+{
+    display: flex;
+    width:60%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

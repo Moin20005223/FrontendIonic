@@ -5,21 +5,21 @@
         <h1>Register Now</h1>
         <div class="Section">
           <label>Name:</label>
-          <input type="text"/>
+          <input type="text"  [(ngModel)]="name"/>
         </div>
         <div class="Section">
           <label>Email:</label>
-          <input type="email"/>
+          <input type="email"  [(ngModel)]="email"/>
         </div>
         <div class="Section">
           <label>Password:</label>
-          <input type="password"/>
+          <input type="password" [(ngModel)]="password"/>
         </div>
         <div class="Section">
           <label>ConfirmPassword:</label>
-          <input type="text"/>
+          <input type="text"  [(ngModel)]="cPassword"/>
         </div>
-        <button>Sign Up</button>
+        <button (click)="register()">Sign Up</button>
     </div>
   </div>
 </ion-content>

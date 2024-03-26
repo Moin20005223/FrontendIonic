@@ -1,0 +1,13 @@
+
+<ion-content>
+  <app-header/>
+ <div class="CartContainer"> 
+   <div class="CartData" *ngFor="let item of cartItems">
+    <div class="CartColumn">
+      <img [src]="item.img" alt="Product Image" width="100" height="100">
+      <h4>Price: {{ item.price }}</h4>
+      <img [src]="deleteImg" alt="Product Image" width="20" height="20">
+    </div>
+   </div>
+ </div>    
+</ion-content>
