@@ -37,6 +37,7 @@ export class HeaderComponent  implements OnInit {
       localStorage.setItem("login","false");
       this.apiService.fetchLogout().then(res=>{
         alert("Logout successfull");
+        window.location.reload();
       })
       .catch(err=>{
         throw err;
