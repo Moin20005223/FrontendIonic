@@ -8,6 +8,7 @@ import { HomePageRoutingModule } from './home-routing.module';
 import { HeaderComponent } from 'src/app/Components/header/header.component';
 import { GalleryComponent } from 'src/app/Components/gallery/gallery.component';
 import { GalleryInRowComponent } from 'src/app/Components/gallery-in-row/gallery-in-row.component';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 @NgModule({
   imports: [
@@ -15,7 +16,9 @@ import { GalleryInRowComponent } from 'src/app/Components/gallery-in-row/gallery
     FormsModule,
     IonicModule,
     HomePageRoutingModule,
+    SharedModule
   ],
-  declarations: [HomePage,HeaderComponent,GalleryComponent,GalleryInRowComponent]
+  declarations: [HomePage,GalleryComponent,GalleryInRowComponent],
+  exports:[HeaderComponent]
 })
 export class HomePageModule {}

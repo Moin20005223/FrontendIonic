@@ -16,12 +16,12 @@
               </ion-col>
             </ion-row>
           </ion-col>
-          <ion-col size-md="2" size-sm="2"><h6>Your Account</h6></ion-col>
+          <ion-col size-md="2" size-sm="2"><h6 (click)="login()">Your Account</h6></ion-col>
           <ion-col size-md="2" size-sm="2"><h6>Your Cart</h6></ion-col>
           <div class="AccountPanel">
             <div class="login">
-              <button>Login</button>
-              <h5>Want to join? <a href="/Signup"> Sign Up</a></h5>
+              <button><a href="/login">Login</a></button>
+              <h5>Want to join? <a href="/signup"> Sign Up</a></h5>
             </div>
           </div>
         </ion-row>
