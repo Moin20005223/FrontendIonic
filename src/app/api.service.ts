@@ -6,12 +6,11 @@ import axios from 'axios';
 })
 export class APIService {
 
-  cart: { price: string, img: string }[] = [];
   constructor() { 
    
   
   }
-  url="http://localhost:2100";
+  url="https://backendnode-2vj1.onrender.com";
   loginEndPoint="login";
   registerEndPoint="register";
   logoutEndPoint="logout";
