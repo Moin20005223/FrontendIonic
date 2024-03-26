@@ -10,7 +10,7 @@ export class APIService {
    
   
   }
-  url="https://backendnode-2vj1.onrender.com";
+  url="http://localhost:2100";
   loginEndPoint="login";
   registerEndPoint="register";
   logoutEndPoint="logout";
