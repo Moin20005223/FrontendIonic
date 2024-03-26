@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Input } from '@angular/core';
 
 @Component({
   selector: 'app-gallery-in-row',
@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GalleryInRowComponent  implements OnInit {
   
+  // @Input() img1:string;img2:string;img3:string;img4:string;
+
+
   img1="../../../assets/gallery1.jpg";
   img2="../../../assets/gallery2.jpg";
   img3="../../../assets/gallery3.jpg";

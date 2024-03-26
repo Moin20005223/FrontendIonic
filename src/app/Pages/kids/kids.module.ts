@@ -1,22 +1,24 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
-import { HomePage } from './home.page';
 
-import { HomePageRoutingModule } from './home-routing.module';
+import { IonicModule } from '@ionic/angular';
 
+import { KidsPageRoutingModule } from './kids-routing.module';
+
+import { KidsPage } from './kids.page';
 import { SharedModule } from 'src/app/shared/shared.module';
+import { HeaderComponent } from 'src/app/Components/header/header.component';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule,
+    KidsPageRoutingModule,
     SharedModule
   ],
-  declarations: [HomePage],
+  declarations: [KidsPage],
   exports:[SharedModule]
 })
-export class HomePageModule {}
+export class KidsPageModule {}

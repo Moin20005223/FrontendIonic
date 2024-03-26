@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Input } from '@angular/core';
 
 @Component({
   selector: 'app-gallery',
@@ -7,12 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GalleryComponent  implements OnInit {
 
-  img1="../../../assets/1.webp";
-  img2="../../../assets/2.png";
-  img3="../../../assets/3.png";
-  img4="../../../assets/4.webp";
-  img5="../../../assets/5.webp";
-  img6="../../../assets/6.png";
+  @Input() img1:String;
+  @Input() img2:String;
+  @Input() img3:String;
+  @Input() img4:String;
+  @Input() img5:String;
+  @Input() img6:String;
+
+  // img1="../../../assets/1.webp";
+  // img2="../../../assets/2.png";
+  // img3="../../../assets/3.png";
+  // img4="../../../assets/4.webp";
 
   constructor() { }
   

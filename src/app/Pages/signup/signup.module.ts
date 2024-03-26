@@ -8,7 +8,6 @@ import { SignupPageRoutingModule } from './signup-routing.module';
 
 import { SignupPage } from './signup.page';
 import { SharedModule } from '../../shared/shared.module'
-import { HeaderComponent } from 'src/app/Components/header/header.component';
 
 @NgModule({
   imports: [
@@ -19,6 +18,6 @@ import { HeaderComponent } from 'src/app/Components/header/header.component';
     SharedModule
   ],
   declarations: [SignupPage],
-  exports:[HeaderComponent]
+  exports:[SharedModule]
 })
 export class SignupPageModule {}
