@@ -17,8 +17,10 @@ export class CartPage implements OnInit {
     this.cartItems = this.cartService.getLocally();
     console.log(this.cartItems);
   }
-  deleteItemFromCart()
+  deleteItemFromCart(imgPath)
   {
-    
+     const localCart=JSON.parse(localStorage.getItem("cart"));
+     let newCart=localCart.filter(item=>item.img!=imgPath);
+     localStorage.setItem("cart",newCart);
   }
 }

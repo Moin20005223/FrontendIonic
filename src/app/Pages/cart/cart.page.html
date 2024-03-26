@@ -6,7 +6,7 @@
     <div class="CartColumn">
       <img [src]="item.img" alt="Product Image" width="100" height="100">
       <h4>Price: {{ item.price }}</h4>
-      <img [src]="deleteImg" alt="Product Image" width="30" height="30" (click)="deleteItemFromCart">
+      <img [src]="deleteImg" alt="Product Image" width="30" height="30" (click)="deleteItemFromCart(item.img)">
     </div>
     <hr style="height:0px; width:80%;border:1px solid black;"/>
    </div>
