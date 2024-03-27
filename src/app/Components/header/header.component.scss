@@ -78,3 +78,20 @@
   text-decoration: none;
    color: black;
 }
+@media screen and (max-width:480px)
+{
+  .HeaderContainer h3
+  {
+    font-size:14px;
+  }
+  .HeaderContainer h6
+  {
+    font-size:14px;
+  }
+  .AccountPanel
+  {
+    position: absolute;
+    right:20px;
+    top: 60px;
+  }
+}

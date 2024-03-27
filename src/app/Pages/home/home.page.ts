@@ -25,5 +25,4 @@ export class HomePage {
   price4="$3.50";
   price5="$4.00";
   price6="$2.60";
-  
 }
